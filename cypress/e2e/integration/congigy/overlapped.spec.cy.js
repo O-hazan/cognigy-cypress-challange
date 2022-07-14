@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context("page", () => {
+context("Overlapped", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/overlapped");
   });

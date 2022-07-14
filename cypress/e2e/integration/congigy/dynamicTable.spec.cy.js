@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context("page", () => {
+context("Dynamic table", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/dynamictable");
   });

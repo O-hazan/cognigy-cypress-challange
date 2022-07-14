@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context("page", () => {
+context("Progress bar", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/progressbar");
   });

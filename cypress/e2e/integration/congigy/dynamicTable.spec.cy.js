@@ -1,11 +1,11 @@
 /// <reference types="Cypress" />
 
-context("homepage", () => {
+context("page", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/dynamictable");
   });
 
-  it("Dynamic Table", () => {
+  it("Compare the Chrome CPU vlaue in the table to the yellow label value", () => {
     cy.contains("Chrome CPU")
       .invoke("text")
       .then((text) => {

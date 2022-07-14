@@ -1,11 +1,11 @@
 /// <reference types="Cypress" />
 
-context("homepage", () => {
+context("page", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000/ajax");
   });
 
-  it("cy.AJAX Data() - Click and wait for server response and verify server response is displayed", () => {
+  it("Click and wait for server response and verify server response is displayed", () => {
     cy.intercept({
       method: "GET",
       url: "http://localhost:3000/ajaxdata",
